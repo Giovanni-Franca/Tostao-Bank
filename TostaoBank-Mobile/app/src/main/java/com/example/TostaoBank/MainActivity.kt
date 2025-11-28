@@ -4,10 +4,13 @@ import android.os.Bundle
 import android.text.InputType
 import android.widget.EditText
 import android.widget.ImageButton
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,6 +42,16 @@ class MainActivity : AppCompatActivity() {
             senhaEditText.setSelection(senhaEditText.text.length)
         }
 
+        val txtTeste = findViewById<TextView>(R.id.txtTeste)
+
+        lifecycleScope.launch {
+            try {
+                val resposta = RetrofitClient.api.testarAPI()
+                txtTeste.text = resposta   // ⬅️ aqui você coloca o texto no TextView
+            } catch (e: Exception) {
+                txtTeste.text = "Erro: ${e.message}"
+            }
+        }
 
     }
 }

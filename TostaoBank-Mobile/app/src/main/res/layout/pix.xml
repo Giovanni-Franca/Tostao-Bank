@@ -91,11 +91,6 @@
                     android:textSize="20dp"
                     />
 
-                <View
-                    android:layout_width="300dp"
-                    android:layout_height="1dp"
-                    android:layout_gravity="center"
-                    android:background="#000" />
             </LinearLayout>
 
             <TextView
@@ -118,20 +113,15 @@
                     android:layout_width="300dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"
-                    android:hint="jorge@gmail.com"
+                    android:hint="00,00"
                     android:inputType="text"
                     android:padding="10dp"
                     android:textColor="@color/black"
                     android:textColorHint="#A0A0A0"
                     android:textSize="20dp"
-
                     />
 
-                <View
-                    android:layout_width="300dp"
-                    android:layout_height="1dp"
-                    android:layout_gravity="center"
-                    android:background="#000" />
+
             </LinearLayout>
 
         <com.google.android.material.button.MaterialButton

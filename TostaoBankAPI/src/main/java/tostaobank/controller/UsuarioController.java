@@ -178,7 +178,7 @@ public class UsuarioController {
 	
 	@GetMapping(value = "/teste")
 	public String teste() {
-		String a = "funcionou";
+		String a = "dksmflsdm";
 		return a;
 	}
 }

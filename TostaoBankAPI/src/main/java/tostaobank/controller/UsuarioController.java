@@ -176,5 +176,9 @@ public class UsuarioController {
 		return op.get();
 	}
 	
-	
+	@GetMapping(value = "/teste")
+	public String teste() {
+		String a = "funcionou";
+		return a;
+	}
 }

@@ -9,8 +9,8 @@ object RetrofitClient {
     val api: Endpoint by lazy {
         val retrofit = Retrofit.Builder()
             .baseUrl(BASE_URL)
-            .addConverterFactory(GsonConverterFactory.create())  // 👈 JSON primeiro
-            .addConverterFactory(ScalarsConverterFactory.create()) // 👈 String depois
+            .addConverterFactory(GsonConverterFactory.create())
+            .addConverterFactory(ScalarsConverterFactory.create())
             .build()
 
         retrofit.create(Endpoint::class.java)

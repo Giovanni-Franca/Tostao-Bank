@@ -26,8 +26,8 @@ class CadastroActivity : AppCompatActivity() {
     private lateinit var btnShowHide: ImageButton
     private lateinit var btnCadastrar: MaterialButton
     private lateinit var txtMensagem: TextView
+    private lateinit var btnIrLogin: MaterialButton
     private var senhaVisivel = false
-
     private lateinit var txtTelefone: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -47,9 +47,11 @@ class CadastroActivity : AppCompatActivity() {
         txtEmail = findViewById(R.id.txtLoginCadastro)
         txtSenha = findViewById(R.id.txtSenhaCadastro)
         txtCPF = findViewById(R.id.txtCPFCadastro)
+        txtTelefone = findViewById(R.id.txtTelefoneCadastro)
         btnShowHide = findViewById(R.id.btnShowHide)
         btnCadastrar = findViewById(R.id.btnCadastrar)
         txtMensagem = findViewById(R.id.txtMensagem)
+        btnIrLogin = findViewById(R.id.btnIrLogin)
 
         // Mostrar/esconder senha
         btnShowHide.setOnClickListener {
@@ -69,6 +71,7 @@ class CadastroActivity : AppCompatActivity() {
             val senha = txtSenha.text.toString().trim()
             val cpf = txtCPF.text.toString().trim()
             val renda = txtRenda.text.toString().trim()
+            val telefone = txtTelefone.text.toString().trim()
 
             if (nome.isEmpty() || email.isEmpty() || senha.isEmpty() || cpf.isEmpty() || renda.isEmpty()) {
                 txtMensagem.text = "Preencha todos os campos!"
@@ -82,7 +85,7 @@ class CadastroActivity : AppCompatActivity() {
                 senhaUsuario = senha,
                 saldoUsuario = 0.0,       // valor inicial
                 cartaoUsuario = "",       // backend gera o cartão
-                telefoneUsuario = ""      // opcional
+                telefoneUsuario = telefone      // opcional
             )
 
             lifecycleScope.launch {
@@ -107,6 +110,11 @@ class CadastroActivity : AppCompatActivity() {
                 }
             }
         }
+
+        btnIrLogin.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun limparCampos() {
@@ -116,4 +124,5 @@ class CadastroActivity : AppCompatActivity() {
         txtNome.text.clear()
         txtRenda.text.clear()
     }
+
 }

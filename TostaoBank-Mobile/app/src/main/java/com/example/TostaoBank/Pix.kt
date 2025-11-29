@@ -90,6 +90,10 @@ class Pix : AppCompatActivity() {
                     startActivity(Intent(this, Tela_Inicial::class.java))
                     true
                 }
+                R.id.extrato ->{
+                    startActivity(Intent( this, HistoricoActivity::class.java))
+                    true
+                }
                 else -> false
             }
         }

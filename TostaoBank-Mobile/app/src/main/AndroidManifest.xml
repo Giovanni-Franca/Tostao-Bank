@@ -19,6 +19,8 @@
         <activity android:name=".Tela_Inicial"
             android:launchMode="singleTop"/>
         <activity android:name=".Pix" />
+        <activity android:name=".HistoricoActivity"/>
+        <activity android:name=".IndisponivelActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

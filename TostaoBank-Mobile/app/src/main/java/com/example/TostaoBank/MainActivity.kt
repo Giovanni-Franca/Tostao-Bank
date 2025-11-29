@@ -77,6 +77,7 @@ class MainActivity : AppCompatActivity() {
                             Sessao.usuarioId = usuario.idUsuario
                             Sessao.nomeUsuario = usuario.nomeUsuario
                             Sessao.saldoUsuario = usuario.saldoUsuario
+                            Sessao.emailUsuario = usuario.emailUsuario
 
                             txtTeste.text = "Bem vindo, ${usuario.nomeUsuario}!"
 

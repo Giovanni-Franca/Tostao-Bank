@@ -3,9 +3,9 @@
     <item android:title="Inicio"
         android:icon="@drawable/home"
         android:id="@+id/home"/>
-    <item android:title="Conta"
-        android:icon="@drawable/pessoa"
-        android:id="@+id/pessoa"/>
+    <item android:title="Extrato"
+        android:icon="@drawable/extrato"
+        android:id="@+id/extrato"/>
     <item android:title="Pix"
         android:icon="@drawable/pix"
         android:id="@+id/pix"/>

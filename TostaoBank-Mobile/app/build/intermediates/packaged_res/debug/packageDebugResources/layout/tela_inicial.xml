@@ -56,16 +56,16 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="44dp"
-                    android:layout_height="44dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
                     android:background="@drawable/circle_button"
                     android:src="@drawable/buscar"
                     android:contentDescription="buscar"
                     />
 
                 <ImageButton
-                    android:layout_width="44dp"
-                    android:layout_height="44dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
                     android:layout_marginStart="8dp"
                     android:src="@drawable/notification"
                     android:background="@drawable/circle_button"
@@ -126,15 +126,17 @@
                         />
                     <ImageButton
                         android:id="@+id/btnSMostrarSaldo"
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="12dp"
                         android:background="@android:color/transparent"
                         android:src="@drawable/olho"
                         android:paddingTop="15dp"
+                        android:contentDescription="Mostrar ou ocultar saldo"
                         />
                     <TextView
                         android:id="@+id/btnExtrato"
-                        android:layout_width="0dp"
+                        android:layout_width="48dp"
                         android:layout_height="wrap_content"
                         android:text="Extrato →"
                         android:textColor="@color/roxo"
@@ -163,7 +165,7 @@
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnDepositar"
                         android:layout_width="wrap_content"
-                        android:layout_height="36dp"
+                        android:layout_height="48dp"
                         android:text="Depositar"
                         app:cornerRadius="12dp"
                         app:backgroundTint="@color/roxo"
@@ -205,16 +207,18 @@
                         android:layout_height="match_parent"
                         android:layout_alignParentEnd="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/card" />
+                        android:src="@drawable/card"
+                        android:contentDescription=""
+                        />
 
                     <com.google.android.material.button.MaterialButton
                         android:layout_width="wrap_content"
-                        android:layout_height="36dp"
-                        android:text="Pedir cartão"
+                        android:layout_height="48dp"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentBottom="true"
-                        app:backgroundTint="@color/roxo"
-                        android:textColor="@android:color/white"/>
+                        android:text="Pedir cartão"
+                        android:textColor="@android:color/white"
+                        app:backgroundTint="@color/roxo" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -275,10 +279,10 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:layout_width="wrap_content"
-                        android:layout_height="36dp"
+                        android:layout_height="48dp"
                         android:text="Ativar"
-                        app:backgroundTint="@color/roxo"
-                        android:textColor="@android:color/white"/>
+                        android:textColor="@android:color/white"
+                        app:backgroundTint="@color/roxo" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -288,10 +292,11 @@
 
     <!-- BOTTOM NAV + central FAB-like -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="bottom|center"
-    app:menu="@menu/bottom_nav" />
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        app:menu="@menu/bottom_nav" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

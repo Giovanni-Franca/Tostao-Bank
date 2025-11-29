@@ -16,7 +16,7 @@ data class Usuario(
     var senhaUsuario: String,
 
     @SerializedName("saldoUsuario")
-    var saldoUsuario: String,
+    var saldoUsuario: Double,
 
     @SerializedName("cartaoUsuario")
     var cartaoUsuario: String,

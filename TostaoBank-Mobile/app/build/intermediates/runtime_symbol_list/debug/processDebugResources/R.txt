@@ -3184,6 +3184,7 @@ int id below 0x7f09005d
 int id bestChoice 0x7f09005e
 int id blocking 0x7f09005f
 int id bottom 0x7f090060
+int id bottom_navigation 0x7f09021f
 int id bounce 0x7f090061
 int id bounceBoth 0x7f090062
 int id bounceEnd 0x7f090063

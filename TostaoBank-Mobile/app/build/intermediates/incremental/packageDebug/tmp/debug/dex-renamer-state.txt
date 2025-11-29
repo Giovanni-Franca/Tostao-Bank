@@ -1,4 +1,4 @@
-#Fri Nov 28 20:27:33 BRT 2025
+#Sat Nov 29 04:58:50 BRT 2025
 base.0=C\:\\Dev\\MeusProjetos\\Tostao-Bank-Main\\Tostao-Bank\\TostaoBank-Mobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Dev\\MeusProjetos\\Tostao-Bank-Main\\Tostao-Bank\\TostaoBank-Mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Dev\\MeusProjetos\\Tostao-Bank-Main\\Tostao-Bank\\TostaoBank-Mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex

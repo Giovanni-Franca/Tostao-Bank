@@ -29,6 +29,7 @@ drawable pix
 drawable tab_selected
 drawable voltar
 font sora
+id bottom_navigation
 id btnCadastrar
 id btnConsultarEmprestimo
 id btnDepositar

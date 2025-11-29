@@ -60,6 +60,10 @@
         "source": "C:\\Users\\eduar\\.gradle\\daemon\\8.13\\com.example.TostaoBank.app-main-6:\\drawable\\tab_selected.xml"
     },
     {
+        "merged": "com.example.TostaoBank.app-debug-4:/layout_pix.xml.flat",
+        "source": "com.example.TostaoBank.app-main-6:/layout/pix.xml"
+    },
+    {
         "merged": "C:\\Users\\eduar\\.gradle\\daemon\\8.13\\com.example.TostaoBank.app-debug-4:\\font_sora.ttf.flat",
         "source": "C:\\Users\\eduar\\.gradle\\daemon\\8.13\\com.example.TostaoBank.app-main-6:\\font\\sora.ttf"
     },
@@ -70,10 +74,6 @@
     {
         "merged": "C:\\Users\\eduar\\.gradle\\daemon\\8.13\\com.example.TostaoBank.app-debug-4:\\drawable_inner_box.xml.flat",
         "source": "C:\\Users\\eduar\\.gradle\\daemon\\8.13\\com.example.TostaoBank.app-main-6:\\drawable\\inner_box.xml"
-    },
-    {
-        "merged": "com.example.TostaoBank.app-debug-4:/layout_cadastro.xml.flat",
-        "source": "com.example.TostaoBank.app-main-6:/layout/cadastro.xml"
     },
     {
         "merged": "C:\\Users\\eduar\\.gradle\\daemon\\8.13\\com.example.TostaoBank.app-debug-4:\\drawable_ic_launcher_background.xml.flat",

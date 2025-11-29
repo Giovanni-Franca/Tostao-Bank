@@ -73,11 +73,14 @@ class MainActivity : AppCompatActivity() {
                         val usuario = resp.body()
 
                         if (usuario != null) {
+
+                            Sessao.usuarioId = usuario.idUsuario
+                            Sessao.nomeUsuario = usuario.nomeUsuario
+                            Sessao.saldoUsuario = usuario.saldoUsuario
+
                             txtTeste.text = "Bem vindo, ${usuario.nomeUsuario}!"
-                            // TODO: navegar para a próxima tela
+
                             val intent = Intent(this@MainActivity, Tela_Inicial::class.java)
-                            intent.putExtra("usuarioNome", usuario.nomeUsuario)
-                            intent.putExtra("usuarioId", usuario.idUsuario)
                             startActivity(intent)
                             finish()
                         } else {

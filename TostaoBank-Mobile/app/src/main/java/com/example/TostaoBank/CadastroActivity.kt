@@ -80,7 +80,7 @@ class CadastroActivity : AppCompatActivity() {
                 nomeUsuario = nome,
                 emailUsuario = email,
                 senhaUsuario = senha,
-                saldoUsuario = "0",       // valor inicial
+                saldoUsuario = 0.0,       // valor inicial
                 cartaoUsuario = "",       // backend gera o cartão
                 telefoneUsuario = ""      // opcional
             )

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:2:1-34:12
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\eduar\.gradle\caches\8.13\transforms\1937d5871aa07d44862a57346c6986e6\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\eduar\.gradle\caches\8.13\transforms\2b82def94d2e10c71f421a49bb577f9b\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\eduar\.gradle\caches\8.13\transforms\c0b3091dc9e8b05c40ceb4eacba66923\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -65,8 +65,8 @@ ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\ap
 	android:name
 		ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:5:22-76
 application
-ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:7:5-30:19
-INJECTED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:7:5-30:19
+ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:7:5-32:19
+INJECTED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:7:5-32:19
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\eduar\.gradle\caches\8.13\transforms\1937d5871aa07d44862a57346c6986e6\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\eduar\.gradle\caches\8.13\transforms\1937d5871aa07d44862a57346c6986e6\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\eduar\.gradle\caches\8.13\transforms\2b82def94d2e10c71f421a49bb577f9b\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -108,29 +108,35 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ed
 	android:usesCleartextTraffic
 		ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:17:9-44
 activity#com.example.TostaoBank.Tela_Inicial
-ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:19:9-50
+ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:19:9-20:45
+	android:launchMode
+		ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:20:13-43
 	android:name
 		ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:19:19-47
+activity#com.example.TostaoBank.Pix
+ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:21:9-41
+	android:name
+		ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:21:19-38
 activity#com.example.TostaoBank.MainActivity
-ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:20:9-28:20
+ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:22:9-30:20
 	android:exported
-		ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:22:13-36
+		ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:21:13-41
+		ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:23:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.example.TostaoBank.CadastroActivity
-ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:29:9-54
+ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:31:9-54
 	android:name
-		ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:29:19-51
+		ADDED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml:31:19-51
 uses-sdk
 INJECTED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Dev\MeusProjetos\Tostao-Bank-Main\Tostao-Bank\TostaoBank-Mobile\app\src\main\AndroidManifest.xml

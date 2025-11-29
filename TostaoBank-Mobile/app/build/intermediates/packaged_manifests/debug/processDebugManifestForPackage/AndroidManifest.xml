@@ -33,7 +33,10 @@
         android:theme="@style/Theme.TostaoBank"
         android:usesCleartextTraffic="true" >
         >
-        <activity android:name="com.example.TostaoBank.Tela_Inicial" />
+        <activity
+            android:name="com.example.TostaoBank.Tela_Inicial"
+            android:launchMode="singleTop" />
+        <activity android:name="com.example.TostaoBank.Pix" />
         <activity
             android:name="com.example.TostaoBank.MainActivity"
             android:exported="true" >

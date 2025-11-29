@@ -1,13 +1,12 @@
 package API
 
-import model.CadastroRequest
 import model.LoginRequest
-import model.PixRequest
-import model.PixResponse
+import model.PixDTO
 import model.Usuario
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.POST
+import retrofit2.http.PUT
 
 interface Endpoint {
 
@@ -17,6 +16,6 @@ interface Endpoint {
     @POST("tostao/cadastro")
     suspend fun cadastrar(@Body request: Usuario): Response<Usuario>
 
-    @POST("tostao/pix")
-    suspend fun enviarPix(@Body request: PixRequest): Response<PixResponse>
+    @PUT("tostao/pix")
+    suspend fun enviarPix(@Body body: PixDTO): Response<Usuario>
 }

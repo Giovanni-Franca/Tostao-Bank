@@ -61,6 +61,7 @@ class Pix : AppCompatActivity() {
                             // Atualiza a Sessão com o saldo retornado pelo backend
                             Sessao.saldoUsuario = usuarioAtualizado.saldoUsuario
                             Toast.makeText(this@Pix, "PIX enviado!", Toast.LENGTH_SHORT).show()
+
                         } else {
                             Toast.makeText(this@Pix, "Erro: resposta vazia", Toast.LENGTH_SHORT).show()
                         }
@@ -78,6 +79,8 @@ class Pix : AppCompatActivity() {
                     Toast.makeText(this@Pix, "Erro ao comunicar com a API", Toast.LENGTH_SHORT).show()
                 }
             }
+            intent = Intent(this, Tela_Inicial::class.java)
+            startActivity(intent)
         }
 
         val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_navigation)

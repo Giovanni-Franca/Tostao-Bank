@@ -59,6 +59,7 @@
                     android:layout_height="48dp"
                     android:background="@drawable/circle_button"
                     android:src="@drawable/buscar"
+
                     android:contentDescription="buscar"
                     />
 

@@ -9,7 +9,5 @@
     <item android:title="Pix"
         android:icon="@drawable/pix"
         android:id="@+id/pix"/>
-    <item android:title="Cartões"
-        android:icon="@drawable/cartao"
-        android:id="@+id/cartoes"/>
+
 </menu>

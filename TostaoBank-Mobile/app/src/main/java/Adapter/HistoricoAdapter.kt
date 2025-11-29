@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
 import com.example.TostaoBank.R
+import com.example.TostaoBank.Sessao
 import model.Historico
 import java.time.ZonedDateTime
 import java.time.format.DateTimeFormatter
@@ -47,9 +48,12 @@ class HistoricoAdapter(private val lista: MutableList<Historico>) :
 
         // verifica se a transação é pix e personaliza a descrição
         if(item.tipoTransferencia == "Pix"){
-            holder.txtDesc.text = "Para: ${item.emailRecebeTransferencia ?: "Sem descrição"}"
-        }
-        else{
+            if(item.emailRecebeTransferencia == Sessao.emailUsuario){
+                holder.txtDesc.text = "De: ${item.emailTransferencia ?: "Sem descrição"}"
+            }else {
+                holder.txtDesc.text = "Para: ${item.emailRecebeTransferencia ?: "Sem descrição"}"
+            }
+        }else{
             holder.txtDesc.text = item.descTransferencia ?: ""
         }
 

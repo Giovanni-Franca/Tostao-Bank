@@ -21,6 +21,7 @@ class Tela_Inicial : AppCompatActivity() {
         val txtSaldo = findViewById<TextView>(R.id.txtSaldo)
         val btnOcultar = findViewById<ImageView>(R.id.btnSMostrarSaldo)
         val txtNomeUsuario = findViewById<TextView>(R.id.txtOla)
+        val btnExtrato = findViewById<TextView>(R.id.btnExtrato)
 
         //botoes sem funcionalidade
         val btnPedirCartao = findViewById<MaterialButton>(R.id.btnPedirCartao)
@@ -29,6 +30,7 @@ class Tela_Inicial : AppCompatActivity() {
         val btnNotificacoes = findViewById<ImageButton>(R.id.btnNotificacoes)
         val btnEmprestimo = findViewById<MaterialButton>(R.id.btnEmprestimo)
         val btnConsultarEmprestimo = findViewById<TextView>(R.id.btnConsultarEmprestimo)
+
 
         // Nome do usuário
         txtNomeUsuario.text = Sessao.nomeUsuario
@@ -41,6 +43,11 @@ class Tela_Inicial : AppCompatActivity() {
             saldoVisivel = !saldoVisivel
             atualizarSaldo(txtSaldo)
             btnOcultar.setImageResource(if (saldoVisivel) R.drawable.olho else R.drawable.olho)
+        }
+
+        btnExtrato.setOnClickListener {
+            val intent = Intent(this, HistoricoActivity::class.java)
+            startActivity(intent)
         }
 
         // Bottom navigation
